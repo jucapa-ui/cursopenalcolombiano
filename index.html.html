@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Especializado en Procedimiento Penal Colombiano - UAN</title>
+    <style>
+        /* Estilos institucionales Universidad Antonio Nariño */
+        :root {
+            --azul-uan: #0A1F62;
+            --azul-secundario: #2A4E9B;
+            --blanco: #FFFFFF;
+            --gris-claro: #F5F5F5;
+        }
+        
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+        }
+        
+        /* Cabecera */
+        header {
+            background: linear-gradient(to right, var(--azul-uan), var(--azul-secundario));
+            padding: 30px 20px;
+            text-align: center;
+            color: var(--blanco);
+        }
+        
+        .logo-uan {
+            max-width: 250px;
+            margin-bottom: 20px;
+        }
+        
+        /* Navegación */
+        nav {
+            background-color: var(--azul-uan);
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+        
+        nav a {
+            color: var(--blanco);
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: var(--azul-secundario);
+        }
+        
+        /* Contenido principal */
+        main {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .seccion-curso {
+            background-color: var(--gris-claro);
+            margin: 30px 0;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .modulo-curso {
+            background-color: var(--blanco);
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid var(--azul-uan);
+        }
+        
+        /* Tabla de horarios */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: var(--azul-uan);
+            color: var(--blanco);
+        }
+        
+        /* Formulario de contacto */
+        .formulario-contacto {
+            background-color: var(--blanco);
+            padding: 30px;
+            border-radius: 10px;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        button {
+            background-color: var(--azul-uan);
+            color: var(--blanco);
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        button:hover {
+            background-color: var(--azul-secundario);
+        }
+        
+        /* Pie de página */
+        footer {
+            background-color: var(--azul-uan);
+            color: var(--blanco);
+            padding: 40px 20px;
+            margin-top: 50px;
+        }
+        
+        .info-contacto {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabecera institucional -->
+    <header>
+        <img src="UANpng.png" alt="Logo Universidad Antonio Nariño" class="logo-uan">
+        <h1>Especialización en Procedimiento Penal Colombiano</h1>
+        <p>Programa certificado | SNIES 12345 | 120 Horas académicas</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#presentacion">Presentación</a></li>
+            <li><a href="#plan-estudios">Plan de Estudios</a></li>
+            <li><a href="#metodologia">Metodología</a></li>
+            <li><a href="#profesores">Profesores</a></li>
+            <li><a href="#certificacion">Certificación</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal detallado -->
+    <main>
+        <!-- Sección de presentación -->
+        <section id="presentacion" class="seccion-curso">
+            <h2>Presentación del Programa</h2>
+            <p>Este programa de especialización en Procedimiento Penal Colombiano, ofrecido por la Facultad de Derecho de la Universidad Antonio Nariño, tiene como objetivo principal:</p>
+            <ul>
+                <li>Analizar críticamente el sistema penal acusatorio colombiano</li>
+                <li>Estudiar las últimas reformas al Código de Procedimiento Penal</li>
+                <li>Capacitar en técnicas de litigación oral</li>
+                <li>Examinar jurisprudencia relevante de la Corte Suprema y Constitucional</li>
+            </ul>
+            
+            <div class="modulo-curso">
+                <h3>Dirigido a:</h3>
+                <p>Abogados en ejercicio, funcionarios judiciales, estudiantes de último año de derecho y profesionales relacionados con el sector justicia.</p>
+            </div>
+        </section>
+
+        <!-- Plan de estudios detallado -->
+        <section id="plan-estudios" class="seccion-curso">
+            <h2>Plan de Estudios</h2>
+            
+            <div class="modulo-curso">
+                <h3>Módulo 1: Fundamentos del Sistema Penal</h3>
+                <ul>
+                    <li>Estructura del sistema penal colombiano</li>
+                    <li>Principios rectores del proceso penal</li>
+                    <li>Actores del proceso: Fiscalía, Jueces, Defensoría</li>
+                    <li>Derechos fundamentales en el proceso penal</li>
+                </ul>
+            </div>
+
+            <div class="modulo-curso">
+                <h3>Módulo 2: Etapas del Proceso</h3>
+                <ul>
+                    <li>Investigación preliminar</li>
+                    <li>Imputación de cargos</li>
+                    <li>Audiencia de formulación de acusación</li>
+                    <li>Juicio oral</li>
+                    <li>Recursos procesales</li>
+                </ul>
+            </div>
+
+            <h3>Cronograma Académico</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Módulo</th>
+                        <th>Duración</th>
+                        <th>Horario</th>
+                        <th>Modalidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fundamentos</td>
+                        <td>4 semanas</td>
+                        <td>Lunes y Miércoles 18:00-21:00</td>
+                        <td>Presencial/Virtual</td>
+                    </tr>
+                    <tr>
+                        <td>Etapas del Proceso</td>
+                        <td>6 semanas</td>
+                        <td>Martes y Jueves 18:00-21:00</td>
+                        <td>Presencial/Virtual</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Sección de profesores -->
+        <section id="profesores" class="seccion-curso">
+            <h2>Cuerpo Docente</h2>
+            <div class="modulo-curso">
+                <h3>Dr. Juan Pérez Martínez</h3>
+                <p>Doctor en Derecho Penal - Experiencia: 15 años en litigación penal</p>
+            </div>
+            
+            <div class="modulo-curso">
+                <h3>Dra. María Gómez Rodríguez</h3>
+                <p>Magíster en Derecho Procesal - Ex fiscal delegada</p>
+            </div>
+        </section>
+
+        <!-- Formulario de contacto -->
+        <section id="contacto" class="seccion-curso">
+            <h2>Información de Contacto</h2>
+            <div class="formulario-contacto">
+                <form>
+                    <input type="text" placeholder="Nombre completo" required>
+                    <input type="email" placeholder="Correo electrónico" required>
+                    <textarea placeholder="Mensaje" rows="5" required></textarea>
+                    <button type="submit">Enviar consulta</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página completo -->
+    <footer>
+        <div class="info-contacto">
+            <div>
+                <h3>Dirección</h3>
+                <p>Sede Principal Bogotá<br>
+                Calle 58A #37-94<br>
+                Facultad de Derecho</p>
+            </div>
+            
+            <div>
+                <h3>Contacto</h3>
+                <p>Teléfono: (601) 123 4567<br>
+                Email: derechopenal@uan.edu.co<br>
+                WhatsApp: +57 300 123 4567</p>
+            </div>
+            
+            <div>
+                <h3>Certificación</h3>
+                <p>Registro SNIES 12345<br>
+                Resolución 4567 de 2023<br>
+                120 Horas - 3 Créditos</p>
+            </div>
+        </div>
+        <p style="text-align: center; margin-top: 30px;">© 2024 Universidad Antonio Nariño - Todos los derechos reservados</p>
+    </footer>
+</body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Desplegable</title>
+    <style>
+        /* Estilos del menú */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin: 20px;
+        }
+
+        .dropdown-btn {
+            background-color: #0A1F62;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .dropdown-btn:hover {
+            background-color: #2A4E9B;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 200px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            border-radius: 5px;
+            z-index: 1;
+            top: 100%;
+            left: 0;
+            margin-top: 5px;
+        }
+
+        .dropdown-content a {
+            color: #333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Clase activa para mostrar el menú */
+        .show {
+            display: block;
+            animation: fadeIn 0.3s;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+    </style>
+</head>
+<body>
+
+<div class="dropdown">
+    <button class="dropdown-btn" id="dropdownBtn" aria-expanded="false">
+        Menú Principal
+    </button>
+    <div class="dropdown-content" id="dropdownContent">
+        <a href="#inicio">Inicio</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#profesores">Profesores</a>
+        <a href="#contacto">Contacto</a>
+    </div>
+</div>
+
+<script>
+    // Obtener elementos del DOM
+    const dropdownBtn = document.getElementById('dropdownBtn');
+    const dropdownContent = document.getElementById('dropdownContent');
+
+    // Función para alternar el menú
+    function toggleMenu() {
+        const isExpanded = dropdownBtn.getAttribute('aria-expanded') === 'true';
+        dropdownContent.classList.toggle('show');
+        dropdownBtn.setAttribute('aria-expanded', !isExpanded);
+    }
+
+    // Evento click en el botón
+    dropdownBtn.addEventListener('click', function(event) {
+        event.stopPropagation();
+        toggleMenu();
+    });
+
+    // Cerrar menú al hacer click fuera
+    window.addEventListener('click', function(event) {
+        if (!event.target.matches('.dropdown-btn') && 
+            !event.target.closest('.dropdown-content')) {
+            if (dropdownContent.classList.contains('show')) {
+                toggleMenu();
+            }
+        }
+    });
+
+    // Cerrar menú con la tecla Escape
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape' && dropdownContent.classList.contains('show')) {
+            toggleMenu();
+        }
+    });
+</script>
+
+</body>
+</html>
+</html>
